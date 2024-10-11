@@ -4,6 +4,7 @@ body{
     font-weight: weight;
     font-style: normal;
     margin: 0;
+    color: blue;
 }
 h1{
     font-size: 50px;
@@ -35,7 +36,7 @@ section{
 }
 .link_button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    background-image: linear-gradient(45deg,green,red);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
@@ -47,7 +48,7 @@ section{
     background-position: right;
 }
 .single_experience{
-    box-shadow: 10px 10px 40px gray ;
+    box-shadow: 10px 10px 50px gray;
     border-radius: 5px;
     height: 80%; 
     background-color: white;
@@ -59,13 +60,15 @@ section{
 }
 #full_stack{
     border-left: 7px solid ;
+    border-right: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon,tomato);
-    border-image-slice: 1 ;
+    border-image-slice: 2;
 }
 #baby_web{
     border-left: 7px solid ;
+    border-right: 7px solid;
     border-image: linear-gradient(180deg,blue,cyan);
-    border-image-slice: 1;
+    border-image-slice: 2;
 } 
 footer p{
     text-align: center;
